@@ -1,7 +1,12 @@
 {
   "name": "greatbrick",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
+  "homepage": "https://github.com/greatjiang/greatbrick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greatjiang/greatbrick.git"
+  },
   "type": "module",
   "description": "vue3组件库",
   "author": "GreatJiang",
