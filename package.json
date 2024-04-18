@@ -1,6 +1,6 @@
 {
   "name": "greatbrick",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "vue3组件库",
   "author": "GreatJiang",
@@ -11,8 +11,8 @@
     "vue3 components"
   ],
   "files": [
-    "components",
-    "dist"
+    "dist",
+    "components"
   ],
   "scripts": {
     "dev": "vite",
