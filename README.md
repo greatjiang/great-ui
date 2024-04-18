@@ -1,20 +1,20 @@
-# great-ui组件库
+# greatbrick组件库
 
 ## 快速开始
 
 ### 1.安装组件
 ```bash
-npm i great-ui
+npm i greatbrick
 ```
 ### 2.引用组件
 ```javascript
 // 全部引入
-import 'great-ui/dist/css/index.css'
-import GreatUI from 'great-ui'
-app.use(GreatUI)
+import 'greatbrick/dist/css/index.css'
+import GreatBrick from 'greatbrick'
+app.use(GreatBrick)
 // 按需引入
-import 'great-ui/dist/css/button.css'
-import {Button} from 'great-ui'
+import 'greatbrick/dist/css/button.css'
+import {Button} from 'greatbrick'
 app.use(Button)
 ```
 
