@@ -1,14 +1,33 @@
 {
   "name": "great-vue",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "greatvue vue3组件库",
+  "author": "GreatJiang",
+  "main": "dist/index.es.js",
+  "keywords": [
+    "vue3组件",
+    "greatvue",
+    "ui",
+    "vue3 components",
+    "great vue"
+  ],
+  "files": [
+    "components",
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build:js": "vite build",
+    "preview": "vite preview",
+    "build:css": "npx gulp sass",
+    "build": "npm run build:js && npm run build:css"
   },
   "dependencies": {
+    "fast-glob": "^3.3.2",
+    "gulp": "^5.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^5.1.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
