@@ -1,16 +1,16 @@
 {
-  "name": "greatvue",
-  "version": "0.0.0",
+  "name": "great-ui",
+  "version": "0.0.1",
   "type": "module",
-  "description": "greatvue vue3组件库",
+  "description": "great-ui vue3组件库",
   "author": "GreatJiang",
   "main": "dist/index.es.js",
   "keywords": [
     "vue3组件",
-    "greatvue",
+    "great-ui",
     "ui",
     "vue3 components",
-    "great vue"
+    "great ui"
   ],
   "files": [
     "components",
