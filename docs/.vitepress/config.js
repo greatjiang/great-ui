@@ -3,21 +3,26 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/greatbrick/",
-  title: "greatbrick",
+  title: "GreatBrick",
   description: "greatbrick components",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '组件', link: '/components-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '开发指南',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '安装', link: '/install' }
+        ]
+      },
+      {
+        text: '基础',
+        items: [
+          { text: '按钮', link: '/button' },
         ]
       }
     ],

@@ -1,12 +1,9 @@
-# greatbrick组件库
-
-## 快速开始
-
-### 1.安装组件
+# 安装
+## 1.安装组件
 ```bash
 npm i greatbrick
 ```
-### 2.引用组件
+## 2.引用组件
 ```javascript
 // 全部引入
 import 'greatbrick/dist/css/index.css'
@@ -17,4 +14,3 @@ import 'greatbrick/dist/css/button.css'
 import {GButton} from 'greatbrick'
 app.use(GButton)
 ```
-

@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "greatbrick"
-  text: "greatbrick components"
-  tagline: My great project tagline
+  name: "GreatBrick"
+  tagline: 基于Vue3的Admin后台管理组件库
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速开始
+      link: /install.md
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 教程文档
+      link: /button.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 最新技术栈
+    details: vue3、vite等最新技术栈开发
+  - title: 组件封装
+    details: 对常用功能进行组件化封装，统一维护，满足基础工作需求
 ---
 
