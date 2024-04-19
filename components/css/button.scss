@@ -1,7 +1,34 @@
-.g-button {
-  color: red;
+// tailwindcolor 500
+.btn-primary {
+  background-color: #3B82F6;
+}
 
-  &.test {
-    color: green;
-  }
+.btn-secondary {
+  background-color: #6B7280;
+}
+
+.btn-success {
+  background-color: #22C55E;
+}
+
+.btn-danger {
+  background-color: #EF4444;
+}
+
+.btn-warning {
+  // 400 yellow
+  background-color: #FACC15;
+}
+
+.btn-info {
+  background-color: #06B6D4;
+}
+
+.btn-light {
+  // 50 slate
+  background-color: #F8FAFC;
+}
+
+.btn-dark {
+  background-color: #78716C;
 }

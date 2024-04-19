@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+
+// Bootstrap
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../components/css/main.scss'
 import '../components/css/index.scss'
 
 import GreatBrick from '../components/lib'
