@@ -25,13 +25,17 @@
     "build:js": "vite build",
     "preview": "vite preview",
     "build:css": "npx gulp sass",
-    "build": "npm run build:js && npm run build:css"
+    "build": "npm run build:js && npm run build:css",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "fast-glob": "^3.3.2",
     "gulp": "^5.0.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^5.1.0",
+    "vitepress": "^1.1.3",
     "vue": "^3.4.21"
   },
   "devDependencies": {
