@@ -16,8 +16,6 @@ defineOptions({
 
 // 通过属性值判断按钮样式
 const props = defineProps(["type", "size", "plain"]);
-console.log("type:" + props.type);
-console.log("plain:" + props.plain);
 
 // 类型 type
 const buttonType = computed(() => {

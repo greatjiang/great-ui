@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "GreatBrick"
-  tagline: 基于Vue3的Admin后台管理组件库
+  tagline: 基于Vue3、Bootstrap4的Admin后台管理组件库
   actions:
     - theme: brand
       text: 快速开始
